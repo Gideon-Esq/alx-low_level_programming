@@ -2,8 +2,8 @@
 
 /**
  * _strlen - determine the length of a string
- * @i - first parameter
  * @s:  string for evaluation
+ *
  * Return: the length of a string
  */
 
