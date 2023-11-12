@@ -1,4 +1,4 @@
-#include <stdio.h
+#include <stdio.h>
 
 /**
  * main - Ptint various data type size on a
