@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * main - This generate random number and identify if
- * its positive, negative, and 0.
+ * its positive, negative, and 0
+ * Return: Alway return 0.
  */
 int main(void)
 {
