@@ -2,19 +2,20 @@
 
 /**
  * main - The function that print alphabet except 'e' and 'q'
- * return: Aleay return 9
+ * Return: Alway return 9
  */
 
 int main(void)
 {
 	char alphabet = 'a';
 
-	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		if( alphabet != 'q' && alphabet != 'e')
+		if (alphabet != 'q' && alphabet != 'e')
 			putchar(alphabet);
-		putchar('\n');
 	}
+		putchar('\n');
+
 	return (0);
 }
 
