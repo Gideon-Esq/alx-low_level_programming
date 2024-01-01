@@ -1,16 +1,15 @@
 #include "main.h"
 /**
  * print_alphabet - print a-z in small letters.
- * @alp: Parameters)
  */
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char ch = 'a';
 
-	for (alp = 'a'; alp <= 'z'; alp++)
-		putchar(alp);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
 	putchar('\n');
 
-	return;
 }
+
