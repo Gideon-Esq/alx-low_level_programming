@@ -6,30 +6,36 @@
  */
 int main(void)
 {
-	int n = 0;
-	int o = 0;
-	int p = 0;
-	int q = 1;
+	int n, o, p, q;
 
-	for (n = 0; n < 10; n++)
-	for (o = 0; o <= 8; o++)
-	for (p = 0; p < 10; p++)
-	for (q = 1; q < 10; q++)
+	for (n = 48; n <= 57; n++)
 	{
-		putchar('0' + n);
-		putchar('0' + o);
-
-		if (o < 9)
+		for (o = 48; o <= 57; o++)
 		{
-			putchar(' ');
-		}
-		putchar('0' + p);
-		putchar('0' + q);
+			for (p = 48; p <= 57; p++)
+			{
+				for (q = 48; q <= 57; q++)
+				{
+					if (((p + q) > (n + o) && p >= n) || n < p)
+					{
+						putchar(n);
+						putchar(o);
+						putchar(' ');
+						putchar(p);
+						putchar(q);
 
-		if (q <= 9)
-		{
-			putchar(',');
-			putchar(' ');
+						if (n + o + p + q == 227 && n == 57)
+						{
+							break;
+						}
+						else
+						{
+							putchar(',');
+							putchar(' ');
+						}
+					}
+				}
+			}
 		}
 	}
 	putchar('\n');
