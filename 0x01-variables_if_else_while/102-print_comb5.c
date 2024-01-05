@@ -25,13 +25,13 @@ int main(void)
 						putchar(q);
 
 						if (n + o + p + q == 227 && n == 57)
-						{
+
 							break;
-						}
-						else
+
+						else 
 						{
 							putchar(',');
-							putchar(' ');
+							putchar('\n');
 						}
 					}
 				}
