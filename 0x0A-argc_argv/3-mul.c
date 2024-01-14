@@ -18,15 +18,15 @@ int main(int argc, char *argv[])
 		{
 			int count1 = atoi(argv[1]);
 			int count2 = atoi(argv[2]);
-			{ 
-				printf("%d\n",count1 * count2);
+			{
+				printf("%d\n", count1 * count2);
 			}
 		}
 	}
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 	return (0);
 }
