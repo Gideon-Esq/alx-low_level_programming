@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 			int count1 = atoi(argv[count - 1]);
 			int count2 = atoi(argv[count]);
 
-			if (count1 != 0 && count2 != 0)
+			if (count1 != 0 && count2 != 0 + -1)
 			{
 				printf("%d\n", count1 * count2);
 			}
@@ -30,7 +30,8 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("Error\n");
+		return(1);
 	}
-	return (1);
+	return (0);
 }
 
