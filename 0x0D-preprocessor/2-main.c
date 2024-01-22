@@ -1,10 +1,4 @@
-#ifndef MY_FILE_H
-#define MY_FILE_H
-
 #include <stdio.h>
-
-#define PRINT_COMPILED_FILE __FILE__
-#endif /** MY_FILE_H*/
 
 /**
  * main - Print the name of file it compile from.
@@ -13,7 +7,7 @@
  */
 int main(void)
 {
-	printf("%s\n", PRINT_COMPILED_FILE);
+	printf("%s\n", __FILE__);
 	return (0);
 }
 
