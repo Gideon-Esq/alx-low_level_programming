@@ -1,2 +1,2 @@
-# 0x0F. C - Function pointets
+# 0x0F. C - Function pointers
 
