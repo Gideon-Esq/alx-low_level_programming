@@ -1,7 +1,6 @@
 /**
  * sum_them_all - Sum all numbers.
- * @const unsigned int n: parameter
- * @va_list: variable list ab.
+ * @n: parameter
  *
  * Return: sum of success.
  */
@@ -19,9 +18,9 @@ int sum_them_all(const unsigned int n, ...)
 	sum = 0;
 	for (i = 0; i < n; i++)
 	{
-		sum += va_arg (ap, int);
+		sum += va_arg(ap, int);
 	}
 	va_end(ap);
-	return sum;
+	return (sum);
 }
 
