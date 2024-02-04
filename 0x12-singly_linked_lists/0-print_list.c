@@ -1,5 +1,12 @@
 #include "lists.h"
 
+/**
+ * print_list - print all elements of list_t list
+ * @number: Number parameter
+ * @temp: swapping parameter
+ * Return: member if sucessful
+ */
+
 size_t print_list(const list_t *h)
 {
 	size_t member;
