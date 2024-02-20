@@ -3,7 +3,7 @@
 /**
  * factorial - Multiples of a certain number
  * @n: integer type number
- * Return: n factorial
+ * Return: n factorial if success
  */
 
 int factorial(int n)
