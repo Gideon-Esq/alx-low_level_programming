@@ -3,6 +3,7 @@
 /**
  * main - causes an infinite loop
  * @i: variable
+ * Extra-ordinaryly lazy😣
  * Return: 0
  */
 
