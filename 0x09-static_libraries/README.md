@@ -1,2 +1,2 @@
-### 0x09. C - Static libraries(recursive).
+### 0x09. C - Static libraries().
 c
